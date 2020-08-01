@@ -1,0 +1,23 @@
+{% extends "layout/_layout_whitepaper.njk" %}
+
+{% block custom_css %}
+
+    <!-- Place Custom Styles Inside <style> Tag -->
+
+{% endblock %}
+
+{% block header %}
+    {% include "sections/_nav.njk"%}
+{% endblock %}
+
+{% block content %}
+
+    {% include "sections/_hero.njk" %}
+    {% include "sections/_title.njk" %}
+    {% include "sections/_content-left-form-right.njk" %}
+
+{% endblock %}
+
+{% block footer %}
+    {% include "sections/_footer.njk"%}
+{% endblock %}

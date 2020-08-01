@@ -1,0 +1,129 @@
+// Custom Fonts
+@font-face {
+  font-family: Avenir-Black;
+  src: url("https://www.acoem.com/wp-content/uploads/2020/01/AvenirLTStd-Black.woff") format("woff"), url("https://www.acoem.com/wp-content/uploads/2020/01/AvenirLTStd-Black.ttf") format("truetype"), url("https://www.acoem.com/wp-content/uploads/2020/01/AvenirLTStd-Black.eot?#iefix") format("embedded-opentype"), url("https://www.acoem.com/wp-content/uploads/2020/01/AvenirLTStd-Black.svg") format("svg");
+  font-style: normal;
+  font-weight: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: Avenir-Light;
+  src: url("https://www.acoem.com/wp-content/uploads/2020/01/AvenirLTStd-Light.woff") format("woff"), url("https://www.acoem.com/wp-content/uploads/2020/01/AvenirLTStd-Light.ttf") format("truetype"), url("https://www.acoem.com/wp-content/uploads/2020/01/AvenirLTStd-Light.eot?#iefix") format("embedded-opentype"), url("https://www.acoem.com/wp-content/uploads/2020/01/AvenirLTStd-Light.svg") format("svg");
+  font-style: normal;
+  font-weight: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: Avenir-Medium;
+  src: url("https://www.acoem.com/wp-content/uploads/2020/01/AvenirLTStd-Medium.woff") format("woff"), url("https://www.acoem.com/wp-content/uploads/2020/01/AvenirLTStd-Medium.ttf") format("truetype"), url("https://www.acoem.com/wp-content/uploads/2020/01/AvenirLTStd-Medium.eot?#iefix") format("embedded-opentype"), url("https://www.acoem.com/wp-content/uploads/2020/01/AvenirLTStd-Medium.svg") format("svg");
+  font-style: normal;
+  font-weight: normal;
+  font-display: block;
+}
+
+$font-stack: (
+  avenir-black: (
+    "Avenir-Black",
+    Arial,
+    Helvetica,
+    sans-serif,
+  ),
+  avenir-medium: (
+    "Avenir-Medium",
+    Arial,
+    Helvetica,
+    sans-serif,
+  ),
+  avenir-light: (
+    "Avenir-Light",
+    Arial,
+    Helvetica,
+    sans-serif,
+  ),
+);
+// Accessor Function of map-get $font-stack
+@function font-stack($key) {
+  @return map-get($font-stack, $key);
+}
+
+// Generate Font Stack Classes (ex: class="open-sans")
+
+@each $key, $value in $font-stack {
+  .#{$key} {
+    font-family: $value;
+  }
+}
+
+$primary-font: font-stack(avenir-light);
+$headline-font: font-stack(avenir-black);
+
+$font-weight: (
+  extra-light: 200,
+  light: 300,
+  normal: 400,
+  semi-bold: 500,
+  bold: 600,
+  extra-bold: 700,
+  heavy: 800,
+  black: 900,
+);
+
+// Generate Font Weight Classes (ex: class="font-extra-light")
+
+@each $key, $value in $font-weight {
+  .font-#{$key} {
+    font-weight: $value;
+  }
+}
+
+// Colors
+
+$color: (
+  transparent: transparent,
+  body: #464c59,
+  headline: #333,
+  white: #ffffff,
+  grey: #f2efef,
+  orange: #ec6608,
+  footer: #464c58,
+);
+
+// Accessor Function of map-get $color
+
+@function color($key) {
+  @return map-get($color, $key);
+}
+
+// Generate Text, Background, and Border Color Classes for Each Color (ex: class="bg-orange")
+
+@each $key, $value in $color {
+  .text-#{$key} {
+    color: $value;
+  }
+  .bg-#{$key} {
+    background-color: $value;
+  }
+  .border-#{$key} {
+    border-color: $value !important;
+  }
+}
+
+$primary-color: color(orange);
+$secondary-color: color(footer);
+$third-color: color(footer);
+
+// Border Radius
+
+@mixin border-radius($radius) {
+  border-radius: $radius;
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+}
+
+// Box Shadow
+@mixin box-shadow($args) {
+  box-shadow: $args;
+  -webkit-box-shadow: $args;
+  -moz-box-shadow: $args;
+}

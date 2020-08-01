@@ -1,0 +1,100 @@
+{
+  "controls": {
+    "demo_form": false
+  },
+  "general": {
+    "pardot_tracking_domain": "https://www5.vibralign.com/",
+    "lp_base_styles": "https://www5.vibralign.com/l/306131/2020-07-22/nn4dr/306131/110614/lp_base_styles_ci.css",
+    "whitepaper_base_styles": "https://www5.vibralign.com/l/306131/2020-08-01/nzxpr/306131/111774/whitepaper_base_styles_ci.css",
+    "form_styles": "https://www5.vibralign.com/l/306131/2020-07-22/nn4t9/306131/110688/form_styles_ci.css",
+    "whitepaper_form_styles": "https://www5.vibralign.com/l/306131/2020-08-01/nzxpt/306131/111776/whitepaper_form_styles_ci.css",
+    "business_name": "ACOEM",
+    "street_address": "",
+    "city_state_zip": "",
+    "phone": "",
+    "about": "",
+    "website": "https://www.acoem.com/",
+    "logo": "https://www5.vibralign.com/l/306131/2020-07-22/nn4dt/306131/110616/acoem_or_logo.png",
+    "logo_width": "154",
+    "favicon": "https://www5.vibralign.com/l/306131/2020-07-22/nn4dw/306131/110618/acoem_favicon.png",
+    "contact_url": "https://www.acoem.com/get-connected-to-acoem/"
+  },
+  "nav": {
+    "fixed": false,
+    "links": false,
+    "link_info": [
+      {
+        "text": "Services",
+        "url": ""
+      },
+      {
+        "text": "About",
+        "url": ""
+      },
+      {
+        "text": "Contact",
+        "url": ""
+      }
+    ]
+  },
+  "header": {
+    "image": ""
+  },
+  "social": [
+    {
+      "name": "facebook",
+      "link": "https://www.facebook.com/ACOEM-207065082718000/",
+      "icon": "<i class=\"fab fa-facebook-f\"></i>"
+    },
+    {
+      "name": "twitter",
+      "link": "https://twitter.com/Acoemgroup",
+      "icon": "<i class=\"fab fa-twitter\"></i>"
+    },
+    {
+      "name": "Viadeo",
+      "link": "https://fr.viadeo.com/fr/company/acoem",
+      "icon": "<i class=\"fab fa-viadeo\"></i>"
+    },
+    {
+      "name": "youtube",
+      "link": "https://www.youtube.com/user/acoemTV",
+      "icon": "<i class=\"fab fa-youtube\"></i>"
+    },
+    {
+      "name": "linkedin",
+      "link": "https://fr.linkedin.com/company/acoemgroup",
+      "icon": "<i class=\"fab fa-linkedin-in\"></i>"
+    }
+  ],
+  "scripts": {
+    "inline_form_fields": false,
+    "bootstrap_form_fields": true
+  },
+  "pages": [
+    {
+      "filename": "custom_1.html"
+    },
+    {
+      "filename": "custom_2.html"
+    },
+    {
+      "filename": "download.html"
+    },
+    {
+      "filename": "form_focused.html"
+    },
+    {
+      "filename": "form_only.html"
+    },
+    {
+      "filename": "informational.html"
+    },
+    {
+      "filename": "services.html"
+    },
+    {
+      "filename": "standard.html"
+    }
+  ]
+}

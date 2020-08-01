@@ -1,0 +1,17 @@
+<!-- Two-Column, Form Right -->
+<section id="content-left-form-right" class="pt-0">
+  <div class="container">
+    <div class="row">
+      <div pardot-region="Left Column - Content" class="col-md-7">
+        <p>Vibration analysis is an exceptionally rich and versatile method which makes it possible to easily acquire the information that is required to characterise the health condition of rotating industrial equipment: common machines such as electric motors, pumps, fans, compressors, etc, and for more specific application like gantries, conveyors, grinders, stamping presses & machine tools.</p>
+      </div>
+      <div id="form-outer" class="col-md-4 offset-md-1">
+        {% if controls.demo_form %}
+          {% include "../includes/_demo-form.njk" %}
+        {% else %}
+          %%content%%
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
