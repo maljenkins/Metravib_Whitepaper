@@ -11,10 +11,10 @@ section,footer {
   
 // Base Navbar Styles
 nav.navbar {
-  background-color: color(white);
+  background-color: color(footer);
   color: color(body);
   padding: calculateRem(30px);
-  border-bottom: 1px solid color(grey);
+
   // Logo
   .navbar-brand {
     color: color(white);

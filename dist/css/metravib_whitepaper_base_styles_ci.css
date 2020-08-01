@@ -126,16 +126,16 @@
   border-color: #f2efef !important;
 }
 
-.text-orange {
-  color: #ec6608;
+.text-green {
+  color: #33bb39;
 }
 
-.bg-orange {
-  background-color: #ec6608;
+.bg-green {
+  background-color: #33bb39;
 }
 
-.border-orange {
-  border-color: #ec6608 !important;
+.border-green {
+  border-color: #33bb39 !important;
 }
 
 .text-footer {
@@ -182,7 +182,7 @@ p {
 }
 
 a {
-  color: #ec6608;
+  color: #33bb39;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
@@ -221,8 +221,8 @@ ul:not(.list-unstyled) li::before {
   font-size: 16px;
   font-size: 1rem;
   color: #ffffff;
-  background-color: #ec6608;
-  border-color: #ec6608;
+  background-color: #33bb39;
+  border-color: #33bb39;
   border-radius: 0;
   padding: 0.75rem 1.5rem;
   -webkit-transition: all 0.3s ease;
@@ -230,8 +230,8 @@ ul:not(.list-unstyled) li::before {
 }
 
 .btn-primary:hover, .btn-secondary:hover, .btn-light:hover {
-  background-color: #ec6608;
-  border-color: #ec6608;
+  background-color: #33bb39;
+  border-color: #33bb39;
 }
 
 .btn-secondary {
@@ -239,8 +239,8 @@ ul:not(.list-unstyled) li::before {
 }
 
 .btn-secondary:hover {
-  background-color: #ec6608;
-  border-color: #ec6608;
+  background-color: #33bb39;
+  border-color: #33bb39;
 }
 
 .btn-light {
@@ -250,8 +250,8 @@ ul:not(.list-unstyled) li::before {
 }
 
 .btn-light:hover {
-  background-color: #ec6608;
-  border-color: #ec6608;
+  background-color: #33bb39;
+  border-color: #33bb39;
   color: #ffffff;
 }
 
@@ -266,10 +266,9 @@ section, footer {
 }
 
 nav.navbar {
-  background-color: #ffffff;
+  background-color: #464c58;
   color: #464c59;
   padding: 1.875rem;
-  border-bottom: 1px solid #f2efef;
 }
 
 nav.navbar .navbar-brand {
@@ -277,7 +276,7 @@ nav.navbar .navbar-brand {
 }
 
 nav.navbar .navbar-toggler {
-  background-color: #ec6608;
+  background-color: #33bb39;
   width: 50px;
   text-align: center;
 }
@@ -302,7 +301,7 @@ nav.navbar .navbar-toggler .navbar-toggler-icon {
 }
 
 .navbar-collapse ul.navbar-nav li.nav-item a.nav-link:hover, .navbar-collapse ul.navbar-nav li.nav-item a.nav-link:active, .navbar-collapse ul.navbar-nav li.nav-item a.nav-link:focus {
-  color: #ec6608;
+  color: #33bb39;
 }
 
 .navbar-collapse.show,
@@ -320,7 +319,7 @@ nav.navbar .navbar-toggler .navbar-toggler-icon {
 .navbar-collapse.collapsing ul.navbar-nav li.nav-item a.nav-link:hover,
 .navbar-collapse.collapsing ul.navbar-nav li.nav-item a.nav-link:active,
 .navbar-collapse.collapsing ul.navbar-nav li.nav-item a.nav-link:focus {
-  color: #ec6608;
+  color: #33bb39;
 }
 
 header #hero {
@@ -364,7 +363,7 @@ section#testimonial {
 }
 
 section#whitepaper {
-  background-color: #ec6608;
+  background-color: #33bb39;
   color: #ffffff;
 }
 
@@ -374,7 +373,7 @@ section#headline-cta {
 }
 
 section#pre-footer {
-  background-color: #ec6608;
+  background-color: #33bb39;
   color: #ffffff;
   text-align: center;
 }
@@ -436,4 +435,4 @@ footer a:hover {
 #social-share a:hover {
   opacity: 1;
 }
-/*# sourceMappingURL=lp_base_styles_ci.css.map */
+/*# sourceMappingURL=metravib_whitepaper_base_styles_ci.css.map */

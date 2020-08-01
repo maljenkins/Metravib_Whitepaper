@@ -3,21 +3,21 @@
     "demo_form": false
   },
   "general": {
-    "pardot_tracking_domain": "https://www5.vibralign.com/",
+    "pardot_tracking_domain": "https://go.metravib-design.com",
     "lp_base_styles": "https://www5.vibralign.com/l/306131/2020-07-22/nn4dr/306131/110614/lp_base_styles_ci.css",
-    "whitepaper_base_styles": "https://www5.vibralign.com/l/306131/2020-08-01/nzxpr/306131/111774/whitepaper_base_styles_ci.css",
+    "whitepaper_base_styles": "https://go.metravib-design.com/l/306131/2020-08-01/nzxpy/306131/111778/metravib_whitepaper_base_styles_ci.css",
     "form_styles": "https://www5.vibralign.com/l/306131/2020-07-22/nn4t9/306131/110688/form_styles_ci.css",
-    "whitepaper_form_styles": "https://www5.vibralign.com/l/306131/2020-08-01/nzxpt/306131/111776/whitepaper_form_styles_ci.css",
+    "whitepaper_form_styles": "https://go.metravib-design.com/l/306131/2020-08-01/nzxq1/306131/111780/metravib_whitepaper_form_styles_ci.css",
     "business_name": "ACOEM",
     "street_address": "",
     "city_state_zip": "",
     "phone": "",
     "about": "",
-    "website": "https://www.acoem.com/",
-    "logo": "https://www5.vibralign.com/l/306131/2020-07-22/nn4dt/306131/110616/acoem_or_logo.png",
+    "website": "https://www.metravib-design.com/",
+    "logo": "https://go.metravib-design.com/l/306131/2020-08-01/nzxq3/306131/111782/METRAVIB_logo_2017_RBV_GreenWhite.png",
     "logo_width": "154",
-    "favicon": "https://www5.vibralign.com/l/306131/2020-07-22/nn4dw/306131/110618/acoem_favicon.png",
-    "contact_url": "https://www.acoem.com/get-connected-to-acoem/"
+    "favicon": "https://go.metravib-design.com/l/306131/2020-08-01/nzxq5/306131/111784/METRAVIB_inge16x16.gif",
+    "contact_url": "https://www.metravib-design.com/supportcontact-support/"
   },
   "nav": {
     "fixed": false,
@@ -43,27 +43,22 @@
   "social": [
     {
       "name": "facebook",
-      "link": "https://www.facebook.com/ACOEM-207065082718000/",
+      "link": "https://www.facebook.com/METRAVIB/",
       "icon": "<i class=\"fab fa-facebook-f\"></i>"
     },
     {
       "name": "twitter",
-      "link": "https://twitter.com/Acoemgroup",
+      "link": "https://twitter.com/METRAVIB_acoem",
       "icon": "<i class=\"fab fa-twitter\"></i>"
     },
     {
-      "name": "Viadeo",
-      "link": "https://fr.viadeo.com/fr/company/acoem",
-      "icon": "<i class=\"fab fa-viadeo\"></i>"
-    },
-    {
       "name": "youtube",
-      "link": "https://www.youtube.com/user/acoemTV",
+      "link": "https://www.youtube.com/channel/UCHK2rC-xBW6Txx6rq6jQyEQ",
       "icon": "<i class=\"fab fa-youtube\"></i>"
     },
     {
       "name": "linkedin",
-      "link": "https://fr.linkedin.com/company/acoemgroup",
+      "link": "https://www.linkedin.com/showcase/metravib-engineering-&-material-testing-effective-robust-&-noiseless-products/",
       "icon": "<i class=\"fab fa-linkedin-in\"></i>"
     }
   ],
